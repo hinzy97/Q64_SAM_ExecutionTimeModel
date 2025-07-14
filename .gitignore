@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.log
+*.csv
+*.json
+*.pkl
+.DS_Store
+Thumbs.db
