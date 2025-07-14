@@ -57,9 +57,10 @@ If you use this repository, please cite:
   publisher={Springer}
 }
 ```
+Tariq, H., Das, O. (2023). A Deterministic Model to Predict Execution Time of Spark Applications. In: Gilly, K., Thomas, N. (eds) Computer Performance Engineering. EPEW 2022. Lecture Notes in Computer Science, vol 13659. Springer, Cham. https://doi.org/10.1007/978-3-031-25049-1_11
 
 ## 🔧 Future Work
-
 - Support for dynamic executor allocation.
 - Integration with Spark UI history logs directly.
 - Comparison with ML-based predictive models.
+
