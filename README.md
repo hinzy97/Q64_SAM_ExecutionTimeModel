@@ -35,7 +35,6 @@ The model achieves **2.85% error** in execution time prediction compared to meas
 ## 📂 Files
 
 - `Q64_SAM.ipynb` – Main notebook implementing the model and predicting execution time.
-- `paper/` – Contains the original publication in PDF format.
 
 ## 🚀 How to Run
 
