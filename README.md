@@ -73,17 +73,19 @@ The model has been validated using Spark history logs for Query 64 on a 200GB in
 If you use this repository or model in your work, please cite:
 
 ```bibtex
-@inproceedings{tariq2022sam,
-  author    = {Hina Tariq and Olivia Das},
-  title     = {A Deterministic Model to Predict Execution Time of Spark Applications},
-  booktitle = {European Performance Engineering Workshop (EPEW)},
-  series    = {Lecture Notes in Computer Science},
-  volume    = {13659},
-  pages     = {167--181},
-  year      = {2022},
-  publisher = {Springer},
-  doi       = {10.1007/978-3-031-25049-1_11
-}
+@InProceedings{10.1007/978-3-031-25049-1_11,
+author="Tariq, Hina
+and Das, Olivia",
+editor="Gilly, Katja
+and Thomas, Nigel",
+title="A Deterministic Model to Predict Execution Time of Spark Applications",
+booktitle="Computer  Performance Engineering",
+year="2023",
+publisher="Springer International Publishing",
+address="Cham",
+pages="167--181",
+abstract="This work proposes a graph-based, deterministic analytical model that predicts the execution time of spark applications. It conceptualizes the structure of the spark application as a monolithic Directed Acyclic Graph (DAG) of stages capturing the precedence relationship among all the stages of the application. The model processes every stage of the DAG using a graph traversal algorithm, combined with a fixed scheduling policy of the spark platform in context (spark platform refers to the cloud that hosts the spark cluster). We validate our model against the measured execution time obtained by running a big data query (Query-64 of TPC-DS benchmark) that involves parallel execution of a large number of stages. The query is executed on the spark cluster of Google Cloud. Our model resulted in an execution time that is at 2.85{\%} error in comparison to the measured execution time.",
+isbn="978-3-031-25049-1"
 }
 ```
 
