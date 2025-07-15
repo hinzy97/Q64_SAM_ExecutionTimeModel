@@ -12,7 +12,7 @@ This Jupyter Notebook implements the **Static Allocation Model (SAM)** – a gra
 
 The notebook simulates the execution of **TPC-DS Query 64** on a Spark cluster using a deterministic stage-wise simulation approach. It uses a flattened DAG of Spark stages and assigns tasks based on Spark’s round-robin task scheduling, simulating execution on a fixed number of cores.
 
-- Models execution using **static resource allocation** (8 cores).
+- Models execution using **static resource allocation** (executor cores).
 - Supports **parallel execution of independent stages**.
 - Estimates stage-level execution using input-task duration relationships.
 - Produces **accurate prediction** of total execution time for large input sizes.
