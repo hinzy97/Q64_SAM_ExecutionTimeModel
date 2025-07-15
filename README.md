@@ -4,7 +4,8 @@ This Jupyter Notebook implements the **Static Allocation Model (SAM)** – a gra
 
 > **Tariq, H., Das, O. (2022).** A Deterministic Model to Predict Execution Time of Spark Applications.  
 > In: *Computer Performance Engineering (EPEW 2022)*, LNCS, vol 13659. Springer.  
-> https://doi.org/10.1007/978-3-031-25049-1_15
+> https://doi.org/10.1007/978-3-031-25049-1_11
+
 
 ---
 
@@ -81,7 +82,8 @@ If you use this repository or model in your work, please cite:
   pages     = {167--181},
   year      = {2022},
   publisher = {Springer},
-  doi       = {10.1007/978-3-031-25049-1_15}
+  doi       = {10.1007/978-3-031-25049-1_11
+}
 }
 ```
 
