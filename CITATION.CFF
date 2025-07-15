@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the following paper:"
+authors:
+  - family-names: Tariq
+    given-names: Hina
+  - family-names: Das
+    given-names: Olivia
+title: "A Deterministic Model to Predict Execution Time of Spark Applications"
+doi: 10.1007/978-3-031-25049-1_23
+date-released: 2022-10-01
+version: 1.0.0
+url: https://github.com/hinzy97/Q64_SAM_ExecutionTimeModel
