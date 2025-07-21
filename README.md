@@ -26,7 +26,7 @@ The notebook simulates the execution of **TPC-DS Query 64** on a Spark cluster u
 - **Task-level scheduling**: Simulates task execution using round-robin scheduling across cores.
 - **Stage parallelism**: Enables parallel simulation of independent stages that do not share shuffle/output dependencies.
 - **Real-world validation**: Predicted results closely match Spark execution on Google Cloud.
-- **No external data input**: All stage/task parameters are defined within the notebook.
+- **Input**: All stage/task parameters are defined within the notebook.
 
 ---
 
