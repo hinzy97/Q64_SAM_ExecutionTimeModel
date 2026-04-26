@@ -55,6 +55,13 @@ The model has been validated using Spark history logs for Query 64 on a 200GB in
 | 491.71            | 477.71             | 2.85      |
 
 ---
+### 🔁 Reproducibility
+
+This repository provides a reproducible implementation of the SAM model 
+for the Query-64 workload under static allocation settings. 
+
+All parameters used in the model correspond to the experimental setup 
+described in the associated journal paper.
 
 ## 📂 Files
 
