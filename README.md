@@ -64,13 +64,17 @@ The model has been validated using Spark history logs for Query 64 on a 200GB in
 
 ## 🚀 How to Run
 
-1. Open `Q64_SAM.ipynb` using **Jupyter Notebook**, **JupyterLab**, or **Google Colab**.
-2. Run each cell sequentially.
-3. Inspect:
-   - DAG structure and dependencies
-   - Stage and task configuration
-   - Predicted execution time
+### ▶️ How to Run
 
+1. Clone the repository:
+   git clone https://github.com/hinzy97/Q64_SAM_ExecutionTimeModel
+
+2. Open the notebook:
+   jupyter notebook SAM_Q64.ipynb
+
+3. Run all cells in order.
+
+No external Spark cluster is required — this is a deterministic simulation.
 ---
 
 ## 📝 Citation
