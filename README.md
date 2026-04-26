@@ -98,3 +98,4 @@ isbn="978-3-031-25049-1"
 - **Multiple Job Support**: Extend to handle multiple Spark jobs or job groups with independent DAGs.
 - **ML-based Comparison**: Benchmark SAM’s predictions against data-driven models using regression, decision trees, or 
 - **Visualization Enhancements**: Add DAG and Gantt chart-style visualizations for better understanding of parallelism and stage behavior.
+- **ML-based Comparison:**  Compare SAM predictions with selected data-driven models under clearly defined evaluation settings.
