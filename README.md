@@ -112,6 +112,5 @@ isbn="978-3-031-25049-1"
 - **Dynamic Executor Allocation**: Extend the model to support runtime changes in resource availability, reflecting Spark’s dynamic allocation mode.
 - **Integration with Spark Logs**: Automate parameter extraction by parsing Spark UI logs (JSON/History Server).
 - **Multiple Job Support**: Extend to handle multiple Spark jobs or job groups with independent DAGs.
-- **ML-based Comparison**: Benchmark SAM’s predictions against data-driven models using regression, decision trees, or 
 - **Visualization Enhancements**: Add DAG and Gantt chart-style visualizations for better understanding of parallelism and stage behavior.
 - **ML-based Comparison:**  ML-based Comparison: Benchmark SAM’s predictions against data-driven models using regression, decision trees, random forests, and neural networks.
