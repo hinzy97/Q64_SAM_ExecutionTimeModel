@@ -37,7 +37,7 @@ The notebook simulates the execution of **TPC-DS Query 64** on a Spark cluster u
 - Interpolates values for unseen input sizes (e.g., 200GB).
 - Simulates task execution with 8 cores using a round-robin allocation policy.
 - Aggregates per-stage completion time, considering parallel stages when dependencies allow.
-- Accounts for warm-up overhead while assuming contention-free execution under fixed executor cores.
+- Accounts for warm-up overhead while assuming contention-free execution.
 
 ---
 
@@ -98,4 +98,4 @@ isbn="978-3-031-25049-1"
 - **Multiple Job Support**: Extend to handle multiple Spark jobs or job groups with independent DAGs.
 - **ML-based Comparison**: Benchmark SAM’s predictions against data-driven models using regression, decision trees, or 
 - **Visualization Enhancements**: Add DAG and Gantt chart-style visualizations for better understanding of parallelism and stage behavior.
-- **ML-based Comparison:**  Compare SAM predictions with selected data-driven models under clearly defined evaluation settings.
+- **ML-based Comparison:**  ML-based Comparison: Benchmark SAM’s predictions against data-driven models using regression, decision trees, random forests, and neural networks.
