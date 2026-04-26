@@ -3,6 +3,8 @@
 
 # Q64_SAM: Deterministic Execution Time Prediction for Spark Applications
 
+This repository provides a reproducible implementation of the SAM model for Query-64 under static allocation settings.
+
 This Jupyter Notebook implements the Static Allocation Model (SAM), a graph-based deterministic model for predicting execution time of Spark applications.
 
 The model is based on prior peer-reviewed work:
@@ -11,7 +13,6 @@ The model is based on prior peer-reviewed work:
 > *A Deterministic Model to Predict Execution Time of Spark Applications*  
 > Computer Performance Engineering (EPEW 2022), LNCS, vol 13659.  
 > 📄 https://doi.org/10.1007/978-3-031-25049-1_11
-
 
 The current implementation corresponds to the Query-64 validation case used in this repository and reflects the extended formulation presented in the journal version.
 
