@@ -1,4 +1,7 @@
-numpy
-pandas
-matplotlib
-jupyter
+### ⚙️ Requirements
+
+- Python 3.x  
+- Jupyter Notebook  
+- NumPy  
+- Pandas  
+- Matplotlib
