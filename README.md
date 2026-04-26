@@ -71,6 +71,7 @@ The model has been validated using Spark history logs for Query 64 on a 200GB in
    jupyter notebook SAM_Q64.ipynb
 
 3. Run all cells in order.
+   
 No external Spark cluster is required — this is a deterministic simulation.
 ---
 
