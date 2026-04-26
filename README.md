@@ -37,7 +37,7 @@ The notebook simulates the execution of **TPC-DS Query 64** on a Spark cluster u
 - Interpolates values for unseen input sizes (e.g., 200GB).
 - Simulates task execution with 8 cores using a round-robin allocation policy.
 - Aggregates per-stage completion time, considering parallel stages when dependencies allow.
-- Accounts for warm-up overheads and shared-core contention during parallel execution.
+- Accounts for warm-up overhead while assuming contention-free execution under fixed executor cores.
 
 ---
 
