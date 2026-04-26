@@ -79,7 +79,7 @@ described in the associated journal paper.
    git clone https://github.com/hinzy97/Q64_SAM_ExecutionTimeModel
 
 2. Open the notebook:
-   jupyter notebook SAM_Q64.ipynb
+   jupyter notebook Q64_SAM.ipynb
 
 3. Run all cells in order. No external Spark cluster is required — this is a deterministic simulation.
 ---
