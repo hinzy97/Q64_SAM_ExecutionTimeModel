@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 # Q64_SAM: Deterministic Execution Time Prediction for Spark Applications
 
 This Jupyter Notebook implements the Static Allocation Model (SAM), a graph-based deterministic model for predicting execution time of Spark applications.
